@@ -1,4 +1,4 @@
-require './reverser.rb'
+require_relative '../codes/reverser.rb'
 
 describe 'passed values should be reversed' do
   let!(:test) { print 'hello world abc.    ' }  
