@@ -8,6 +8,10 @@ class Reverser
     def reverse_array(array_to_reverse)
       array_to_reverse.reverse
     end
+
+    def reverse(value)
+      value.reverse
+    end
   end
-  
+
 end
