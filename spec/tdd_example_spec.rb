@@ -22,6 +22,9 @@ describe 'passed values should be reversed' do
 
   describe '.reverse_array' do
     it 'reverses the array passed' do
+      array = [1,2,3]
+      reversed_array = Reverser.reverse_array(array)
+      expect(reversed_array).to eql([3,2,1])
     end
   end
 end
