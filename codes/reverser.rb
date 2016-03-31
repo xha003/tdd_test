@@ -5,7 +5,7 @@ class Reverser
     end
   end
 
-   class << self
+  class << self
     def reverse_array(array_to_reverse)
       array_to_reverse.reverse
     end
