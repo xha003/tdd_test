@@ -5,7 +5,7 @@ class Reverser
     end
 
     def reverse_array(array_to_reverse)
-        array_to_reverse.reverse
+      array_to_reverse.reverse
     end
   end
 end
